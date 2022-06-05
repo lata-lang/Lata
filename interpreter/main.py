@@ -15,6 +15,8 @@ def main():
             continue
         if "read" in line:
             input()
+        if ";" in line:
+            print("Error: Contains semicolon")
     # close the file
     file.close()
 
