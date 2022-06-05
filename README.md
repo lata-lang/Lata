@@ -6,14 +6,14 @@ Lata is a programming language that compiles to Python.
 
 Hello, world!
 ```
-import lata
+@pythonimport lata
 
 write("Hello, World!")
 ```
 
 Interop with Python
 ```
-import lata
+@pythonimport lata
 
 @pythonprint("aoso")
 ```
