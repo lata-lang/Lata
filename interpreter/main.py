@@ -1,6 +1,10 @@
+import sys
+
+
+
 def main():
     # get the file name
-    fileName = input("Enter the file name: ")
+    fileName = sys.argv[1]
     # open the file
     file = open(fileName, "r")
     # if it contains write, then print the words after write, and ignore the line if the line contains //
