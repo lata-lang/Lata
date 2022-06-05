@@ -7,7 +7,7 @@ def main():
     fileName = sys.argv[1]
     # open the file
     file = open(fileName, "r")
-    # if it contains write, then print the words after write, and ignore the line if the line contains //
+    # actual interpreter
     for line in file:
         if "write" in line:
             print(line[line.find("write")+6:])
