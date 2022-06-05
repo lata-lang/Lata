@@ -13,9 +13,12 @@ def main():
             line = line.replace("@", "")
         if line.find("\n") != -1:
             line = line.replace("\n", "")
-        print("lata. " + line)
 
+        print(line)
     # rename the file extension to .py
     fileName = fileName.replace(".lata", ".py")
     # close the file
     file.close()
+
+
+main()
