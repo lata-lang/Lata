@@ -5,7 +5,7 @@ class project:
     def new(template):
         if template == "d":
             os.system("git clone https://github.com/lata-lang/Lata.git")
-            # then enter the project folder and delete the .git folder
+            # folders related to the github repo be die
             os.system("rm -rf Lata/.git")
             os.system("rm -rf Lata/CLI")
             os.system("rm -rf Lata/.gitignore")
