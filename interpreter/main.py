@@ -18,7 +18,7 @@ def main():
             input()
         if ";" in line:
             print("Error: Contains semicolon")
-            print("Hint: Don't use semicolons. It's not that hard.")
+            print("on line: " + str(linfes))
             print(" --------------------------------------------------")
             print("|  print(Hello, Latty!;                            |")
             print("|              _______^_                           |")
