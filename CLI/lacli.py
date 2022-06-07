@@ -18,6 +18,6 @@ args = sys.argv
 # if the user wants to create a new project, then create it
 if args[1] == "new":
     project.new(args[2])
-    # if the user specifies they use vscode, then use it
+    # if the user specifies they use vscode, then use it 
     if args[3] == "vscode":
         os.system("code Lata")
