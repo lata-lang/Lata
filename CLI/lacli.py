@@ -4,7 +4,11 @@ import sys
 class project:
     def new(template):
         if template == "d":
-            print("Default Lata Template")
+            os.system("git clone https://github.com/lata-lang/Lata.git")
+            # then enter the project folder and delete the .git folder
+            os.system("rm -rf Lata/.git")
+            os.system("rm -rf Lata/CLI")
+            os.system("rm -rf Lata/.gitignore")
 
 print("Lata CLI 0.0.1")
 # get the command line arguments
@@ -12,4 +16,5 @@ args = sys.argv
 
 if args[1] == "new":
     project.new(args[2])
-    os.system("git clone https://github.com/lata-lang/Lata.git")
+    if args[3] == "vscode":
+        os.system("code Lata")
