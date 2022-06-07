@@ -15,7 +15,10 @@ def main():
         if "//" in line:
             continue
         if "read" in line:
-            input()
+            input(line[line.find("read")+5:])
+        if "@py" in line:
+            # python interop
+            exec(line[line.find("@py")+3:])
         if ";" in line:
             print("Error: Contains semicolon")
             print("on line: " + str(linfes))
