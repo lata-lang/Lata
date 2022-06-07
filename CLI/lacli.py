@@ -15,6 +15,7 @@ print("Lata CLI 0.0.1")
 # get the command line arguments
 args = sys.argv
 
+
 # if the user wants to create a new project, then create it
 if args[1] == "new":
     project.new(args[2])
