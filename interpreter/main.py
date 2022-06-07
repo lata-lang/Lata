@@ -21,9 +21,9 @@ def main():
             print("Hint: Don't use semicolons. It's not that hard.")
             print(" --------------------------------------------------")
             print("|  print(Hello, Latty!;                            |")
-            print("|             ________^_                           |")
-            print("|            |Semicolon.|                          |")
-            print("|            |__________|                          |")
+            print("|              _______^_                           |")
+            print("|             |Semicolon|                          |")
+            print("|             |_________|                          |")
             print(" --------------------------------------------------")
             exit()
     # close the file
