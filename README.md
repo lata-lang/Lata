@@ -6,3 +6,12 @@ Create a .lata file with the interpreter file in a Interpreter folder in the dir
     
 How to run a .lata file:
 python interpreter/main.py project/main.lata
+
+
+------------------
+## Examples
+
+### Python Interop examples
+```
+    @pyprint(2+2)
+```
