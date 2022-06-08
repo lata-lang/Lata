@@ -1,5 +1,5 @@
 # Lata
-Lata is a programming language that compiles to Python.
+Lata is a interpreted programming language written in Python.
 
 How to use Lata:
 Create a .lata file with the interpreter file in a Interpreter folder in the directory. That's it.
