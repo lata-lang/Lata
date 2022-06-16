@@ -6,6 +6,10 @@ def error(calliD):
         print("----------------------------")
         print("|   varstr var1 = coffin;  |") 
         print("----------------------------")
+        print("Good code:")
+        print("----------------------------")
+        print("|   varstr var1 = coffin   |")
+        print("----------------------------")
     exit()
     # this is the error function
 

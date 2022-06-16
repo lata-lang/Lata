@@ -1,5 +1,5 @@
 import sys
-
+import error
 
 def main():
     # get the file name
@@ -9,6 +9,10 @@ def main():
     # actual interpreter
     linfes = 0
     for line in file:
+
+        if ";" in line:
+            error.error("1semi")
+
         linfes += 1
         if "varstr" in line:
             # i guess declare a variable?
